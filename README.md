@@ -34,8 +34,7 @@
 + [bootstrap4](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html)
 + [Jquery](http://www.runoob.com/jquery/jquery-tutorial.html)
 
-+ [类似的开源项目]（https://github.com/liangliangyy/DjangoBlog）
-
++ [类似的开源项目](https://github.com/liangliangyy/DjangoBlog)
 
 
 
