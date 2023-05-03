@@ -10,7 +10,7 @@
 # 技术栈
 最后成果为web系统 
 
-前端使用html+css+js;各人依据自身情况选用bootstrap+jquery
+前端使用html+css+js;依据自身情况选用bootstrap+jquery
 
 后端采用Python+Django框架/Python+Flask框架
 
