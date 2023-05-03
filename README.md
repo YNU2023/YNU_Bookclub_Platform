@@ -29,13 +29,13 @@
 
 # 学习资源
 以下为一些推荐：
-+ [git学习](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
++ [Git](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
 + [Django](https://www.runoob.com/django/django-tutorial.html)
 + [Flask](https://dormousehole.readthedocs.io/en/latest/quickstart.html#id2)
-+ [bootstrap4](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html)
++ [Bootstrap4](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html)
 + [Jquery](http://www.runoob.com/jquery/jquery-tutorial.html)
 
-+ [类似的开源项目](https://github.com/liangliangyy/DjangoBlog)
++ [开源项目](https://github.com/liangliangyy/DjangoBlog)
 
 
 
