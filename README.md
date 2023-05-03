@@ -28,7 +28,7 @@
 4. **项目合并阶段，每次提交前先pull仓库代码再push,不要强制push，避免覆盖他人代码**
 
 # 学习资源
-以下均为一些推荐：
+以下为一些推荐：
 + [Git](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
 + [Django](https://www.runoob.com/django/django-tutorial.html)
 + [Flask](https://dormousehole.readthedocs.io/en/latest/quickstart.html#id2)
