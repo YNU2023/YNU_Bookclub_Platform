@@ -10,9 +10,9 @@
 # 技术栈
 最后成果为web系统 
 
-前端使用html+css+js | 各人依据自身情况选用bootstrap+jquery.
+前端使用html+css+js;各人依据自身情况选用bootstrap+jquery.
 
-后端采用Python+Django框架.
+后端采用Python+Django框架/Python+Flask框架
 
 数据库采用Mysql.
 
@@ -31,6 +31,7 @@
 以下为一些推荐：
 + [git学习](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
 + [Django](https://www.runoob.com/django/django-tutorial.html)
++ [Flask](https://dormousehole.readthedocs.io/en/latest/quickstart.html#id2)
 + [bootstrap4](http://www.runoob.com/bootstrap4/bootstrap4-tutorial.html)
 + [Jquery](http://www.runoob.com/jquery/jquery-tutorial.html)
 
