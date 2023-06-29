@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <input id="txtUser" placeholder="请输入内容" type="text"/>
+</div>
+<div style="margin-top: 10px">
+    <input onclick="addInfo()" type="button" value="提交"/>
+</div>
+<ul id="info"></ul>
+<script type="text/javascript">
+    function addInfo() {
+        //1.获取文本框中的内容
+        var txtUser = document.getElementById("txtUser");
+        var text = txtUser.value;
+        //2.判断文本框中的内容是否为空
+        if (text.length > 0) {
+            //3.创建<li>标签
+            var li = document.createElement("li");
+            //4.在<li>标签中添加文本
+            li.innerText = text;
+            //5.添加
+            var parentTag = document.getElementById("info");
+            parentTag.appendChild(li);
+            //6.清空文本框中的内容
+            txtUser.value = "";
+        } else {
+            alert("请输入内容");
+        }
+
+    }
+</script>
+</body>
+</html>

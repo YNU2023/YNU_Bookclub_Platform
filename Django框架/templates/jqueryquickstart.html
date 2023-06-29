@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>123</h1>
+<script src="../static/js/jquery-3.7.0.min.js"></script>
+<script type="text/javascript">
+    //更改h1中的内容
+    //下面介绍jquery的选择器(直接寻找)
+    //1.通过标签名选择
+    $("h1").text("hello world!!!!");
+    //2.通过id选择
+    $("#id1").text("hello world!!!!");
+    //3.通过class选择
+    $(".class1 .h1").text("hello world!!!!");
+    //4.通过属性选择
+    $("[name='name1']").text("hello world!!!!");
+    //5.通过组合选择
+    $("h1,#id1,.class1,[name='name1']").text("hello world!!!!");
+
+
+    //间接寻找
+    //1.找到上一个标签
+    $("h1").prev().text("hello world!!!!");
+    //2.找到下两个个标签
+    $("h1").next().next().text("hello world!!!!");
+    //3.找到所有的子标签
+    $("h1").children().text("hello world!!!!");
+    //4.找到所有的父标签
+    $("h1").parent().text("hello world!!!!");
+    //5.找到所有的兄弟标签
+    $("h1").siblings().text("hello world!!!!");
+    //6.找到所有的子标签
+    $("h1").find("span").text("hello world!!!!");
+
+
+</script>
+</body>
+</html>

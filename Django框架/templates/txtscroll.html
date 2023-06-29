@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .c1 {
+            text-align: center;
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+<div class="c1">
+    <h1>热烈欢迎黄老师莅临指导!!</h1>
+    <script type="text/javascript">
+        function welcome_MS_Huang() {
+            var tag = document.getElementsByTagName("h1")[0];
+            var text = tag.innerHTML;
+            tag.innerHTML = text.substring(1, text.length) + text[0];
+        }
+
+        setInterval("welcome_MS_Huang()", 270);
+    </script>
+</div>
+</body>
+</html>

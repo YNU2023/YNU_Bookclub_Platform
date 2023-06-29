@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--这个demo用于通过http请求返回相关数据-->
+<ul id="city"></ul>
+<script type="text/javascript">
+    //发送网络请求,获取数据
+    var citylist = ["北京", "上海", "深圳"];
+    for (var idx in citylist) {
+        var text = citylist[idx];
+        //创建<li>标签
+        var li = document.createElement("li");
+        //在<li>标签中添加文本
+        li.innerText = text;
+        //添加
+        var parentTag = document.getElementById("city");
+        parentTag.appendChild(li);
+    }
+</script>
+</body>
+</html>
